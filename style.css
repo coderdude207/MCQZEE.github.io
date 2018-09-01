@@ -234,7 +234,7 @@ a{
 {
 	text-align: center;
 }
-.signup>input[type=text], .signup>input[type=password],select {
+input[type=text],input[type=password],select {
     width: 75%;
     background: rgb(236,236,236);
     padding: 15px;
