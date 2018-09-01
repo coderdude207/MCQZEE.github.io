@@ -246,7 +246,7 @@ a{
 h1{text-align:center;}
 
 /* Add a background color when the inputs get focus */
-.signup>input[type=text]:focus, .signup>input[type=password]:focus,select:focus {
+.makedigital .signup input[type=text],.makedigital .signup input[type=password]:focus,select:focus {
     outline: none;
     border-bottom: 2px solid red;
 }
