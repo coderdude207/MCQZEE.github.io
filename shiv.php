@@ -48,5 +48,5 @@
 </body>
 </html>
 <?php
-header('Location:index.html');
+header('Location:https://mcqzee.github.io/');
 ?>
