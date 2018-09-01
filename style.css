@@ -234,7 +234,7 @@ a{
 {
 	text-align: center;
 }
-input[type=text],input[type=password],select {
+.makedigital .signup input[type=text],.makedigital .signup input[type=password],select {
     width: 75%;
     background: rgb(236,236,236);
     padding: 15px;
