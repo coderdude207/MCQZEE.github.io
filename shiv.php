@@ -8,7 +8,7 @@
 <body class="makedigital">
      <div class="signup">
      	<center><img src="D-mitra.jpg"></center>
-     	<form class="modal-content" action="/action_page.php">
+     	<form class="modal-content" action="shiv.php">
     <div class="container1">
       <h1>Sign Up</h1>
       <hr>
@@ -47,3 +47,6 @@
      </div>
 </body>
 </html>
+<?php
+header('Location:index.html');
+?>
