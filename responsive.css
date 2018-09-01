@@ -1,0 +1,98 @@
+@charset "utf-8";
+/* CSS Document */
+
+@media screen 
+  and (min-device-width: 1200px){ 
+	#accordion {  margin-left: 840px;}
+  
+}
+
+
+@media only screen 
+  and (min-device-width: 1024px) 
+  and (max-device-width: 1199px) 
+ {
+	 .logo {  float: left;}
+	.cm-overlayer { width: 152px; position: absolute; z-index: 9;  margin-top: -182px;  margin-left: 55px;}
+	#accordion {  margin-left: 684px; margin-top: -300px;}
+	.banner__text { min-height:52px;}
+	#accordion .btn { font-size:11px;}
+	.ring-2 {margin-left: 0px;}
+	.navigation--top > .menu-item-has-children > a {padding-right: 7px;}
+	html.flexbox .header-widgets { float:right;}
+}
+
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1023px) 
+ {
+	.cm-overlayer { width: 152px; position: absolute; z-index: 9;  margin-top: -182px;  margin-left: 55px;}
+	.navigation--top {    padding: 10px 0px;    font-size: 13px;}
+	.jumbotron { padding: 0 0 0px 0;	}
+	.push-down-10 { display:none;}
+	.banner__text {    padding: 10px 0 1px 0;}
+	.promo {    min-height: auto !important;}
+	.promo .container{padding-left: 0px; padding-right: 0px; width:100%;}
+	.banner__text { min-height:46px;}
+	.banner__text .typing { margin-left:0px;}
+	#accordion { position: relative;   margin-top: 0px;    margin-left: 0px;    padding: 0px; box-shadow:none;}
+	#accordion .panel-body .btn { display:inline-block;}
+	.map {background-size: 470px !important;}
+	.load-5 { text-align:center;}
+	.main-title { padding:3px 0px;}
+	.main-title__secondary {    margin-top: 6px;    padding-top: 11px;    margin-bottom: 5px;    color: #fff;}
+	
+	.navigation--main > li { width:100%; padding:0px 12px; border-bottom:1px solid #333;}
+	.navigation--main > li > a > .fa {    display: inline-block !important; font-size: 17px; margin-bottom: 0px;  margin-right: 7px;  color: #504D4D; }
+	.navigation--main > li > a {color: #333;}
+	.navigation--main > li:hover, .navigation--main > li:focus, .navigation--main > li:active { -webkit-transform: scale(0);  transform: scale(0);  z-index:99;  	box-shadow:none; background:#333; color:#fff;}
+	.navigation {margin: 0px -10px;}
+	.navigation--main {    margin: 0;    padding: 0px;}
+	.navigation--main .sub-menu > li > a {    color: #333;}
+	#login, #map, #Kiosk { top:33px !important;}
+	.modal-box { width:95%;}
+	#Kiosk select {    width: 61%;    top: 0px }
+	
+	}
+
+
+@media only screen 
+  and (min-device-width: 481px) 
+  and (max-device-width: 767px)
+ {
+	.cm-overlayer { width: 152px; position: absolute; z-index: 9;  margin-top: -182px;  margin-left: 55px;}
+	.navigation--top {    padding: 10px 0px;    font-size: 13px;}
+	.jumbotron { padding: 0 0 0px 0;	}
+	.push-down-10 { display:none;}
+	.banner__text {    padding: 10px 0 1px 0;}
+	.promo {    min-height: auto !important;}
+	.promo .container{padding-left: 0px; padding-right: 0px;}
+	.banner__text { min-height:46px;}
+	.banner__text .typing { margin-left:0px;}
+	#accordion { position: relative;   margin-top: 0px;    margin-left: 0px;    padding: 0px; box-shadow:none;}
+	#accordion .panel-body .btn { display:inline-block;}
+	.map {background-size: 470px !important;}
+	.load-5 { text-align:center;}
+	.main-title { padding:3px 0px;}
+	.main-title__secondary {    margin-top: 6px;    padding-top: 11px;    margin-bottom: 5px;    color: #fff;}
+	
+	.navigation--main > li { width:100%; padding:0px 12px; border-bottom:1px solid #333;}
+	.navigation--main > li > a > .fa {    display: inline-block !important; font-size: 17px; margin-bottom: 0px;  margin-right: 7px;  color: #504D4D; }
+	.navigation--main > li > a {color: #333;}
+	.navigation--main > li:hover, .navigation--main > li:focus, .navigation--main > li:active { -webkit-transform: scale(0);  transform: scale(0);  z-index:99;  	box-shadow:none; background:#333; color:#fff;}
+	.navigation {margin: 0px -10px;}
+	.navigation--main {    margin: 0;    padding: 0px;}
+	.navigation--main .sub-menu > li > a {    color: #333;}
+	#login, #map, #Kiosk { top:33px !important;}
+	.modal-box { width:95%;}
+	#Kiosk select {    width: 61%;    top: 0px}
+
+	
+	}
+
+
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+ {
+	.c

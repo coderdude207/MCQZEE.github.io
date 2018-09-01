@@ -1,0 +1,266 @@
+
+footer {
+	width:100%;
+	background:#000;
+	float:left;
+	line-height: initial;
+}
+footer #footertop {
+	background:#4c4c4c;
+	width:100%;
+	padding: 5px 0;
+}
+footer #footertop ul {
+	list-style-type:none;
+}
+footer #footertop ul li {
+	border-right: 1px solid rgb(48,48,48);
+	display: inline-block;
+	margin: 0 6px 0 0;
+	padding: 3px 11px 2px 0;
+}
+footer #footertop ul li:nth-last-child(1) {
+border:none;
+}
+footer #footertop ul li a {
+	color:rgb(255,255,255);
+	font-size: 1.2em;
+}
+#fotter-bottom {
+	background: none repeat scroll 0 0 rgb(19, 19, 19);
+	float: left;
+	padding: 0 0 20px;
+	width: 100%;
+}
+footer #fotter-bottom ul {
+	list-style-type:none;
+}
+footer #fotter-bottom ul li.first {
+	display:inline-block;
+	width: 56%;
+	float:left;
+	padding:0px;
+	margin:0px;
+}
+footer #fotter-bottom ul li.first ul li {
+	width:50%;
+	float:left;
+}
+footer #fotter-bottom ul li {
+	display:inline-block;
+	width: 22%;
+	float:left;
+	padding:0px;
+	margin:0 0 5px;
+}
+footer #fotter-bottom ul li ul li {
+	width:100%;
+	float:left;
+}
+footer #fotter-bottom ul li a {
+	color:rgb(185,185,185);
+	font-size:1.2em;
+	line-height: 16px;
+}
+footer #fotter-bottom ul li a span {
+	color:#fff;
+	font-size: 1.27em;
+	margin: 20px 0 10px 0;
+	width: 100%;
+	float:left;
+	font-family: 'roboto_slabbold';
+}
+footer #fotter-bottom ul li a:hover {
+	color:rgb(255,255,255);
+}
+#fotter-bottom h3 {
+	font-size:14px;
+	font-family: "open_sansregular";
+	font-weight:600;
+	color:rgb(252,252,252);
+	padding: 20px 0 10px;
+	width: 100%;
+	float:left;
+}
+.footer_col3 {
+	width: 24%;
+	float: right;
+	margin: 58px 0 0;
+}
+.footer_col3 a {
+	margin:0 0 10px 0;
+	float:left;
+}
+#footer .lastupdated {
+	float:left;
+	width:100%;
+	margin: 20px 0 10px;
+	padding:0px;
+	color: rgb(185, 185, 185);
+	font-size: 1.2em;
+	text-align:center;
+}
+#footer .lastupdated a {
+	float:left;
+	color:#fda103;
+}
+#footer .lastupdated a:hover,
+#footer .lastupdated a:focus {
+	color:#727171;
+	text-decoration:underline;
+}
+#footer .lastupdated p a {
+	float:none;
+	font-size: 0.95em;
+}
+
+
+#footertop select {
+	display:none;
+}
+.footerLinks {
+	width: 76%;
+	float:left;
+}
+#menutext {
+	display:none;
+}
+
+@media screen and (max-width:950px) {
+.data_states select {
+width: 100%;
+}
+
+.footer_col1 {
+float: left;
+width: 54%;
+margin: 0 0 0 3%;
+}
+footer #footertop ul {
+list-style-type: none;
+text-align: center;
+}
+
+.footer_col3 {
+float: none;
+margin: 15px auto 0;
+width: 90%;
+display: table;
+}
+.footer_col3 a {
+float: left;
+margin: 0 0 5px;
+width: 33%;
+}
+.footer_col3 a img {
+width:80%;
+float:left;
+}
+
+footer #footertop ul li {
+border-right: none;
+}
+.footerLinks {
+	float: left;
+	width: 96%;
+	margin: 0 0 22px 4%;
+}
+.footer_col1, .footer_col2 {
+	display:none;
+}
+.footer_col3 {
+	float: none;
+	margin: 15px auto 0;
+	width: 234px;
+	display: table;
+}
+
+#footertop select {
+	display:block;
+}
+#footertop ul {
+	display:none;
+}
+#footertop select {
+	background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+	border: 1px solid #ddd;
+	color: #fff;
+	display: block;
+	margin: 0 auto;
+	padding: 2px 6px;
+	width: 216px;
+}
+#footertop .styleSelect select {
+	background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+	border: medium none;
+	color: #fff;
+	display: block;
+	margin: 0 auto;
+	padding: 5px 6px;
+	width: 225px;
+}
+#footertop .styleSelect {
+	background: url("../image/select.png") no-repeat scroll right 2px rgba(0, 0, 0, 0);
+	border: 1px solid #ccc;
+	height: 28px;
+	margin: 0 auto;
+	overflow: hidden;
+	width: 208px;
+}
+#footertop .styleSelect select option {
+	background:#4c4c4c;
+}
+.footerLinks {
+	display:none;
+}
+.footer_col3 a {
+	float: left;
+	margin: 0 0 5px;
+	width: auto;
+}
+.footer_col3 a img {
+	float: none;
+	width: auto;
+}
+
+.region.region-footer {
+	float: none;
+	margin: 0 auto;
+	position: relative;
+	width: 208px;
+}
+footer #footertop {
+	padding: 2px 0;
+}
+
+footer #footertop ul {
+	background: none repeat scroll 0 0 #000;
+	border: 1px solid #424242;
+	list-style-type: none;
+	position:absolute;
+	text-align:left;
+	top: 1px;
+	width: 206px;
+}
+footer #footertop ul li {
+	border-bottom: 1px dotted #424242;
+	border-right: medium none;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 5px 11px;
+	width: 100%;
+}
+
+
+
+#quicktabs-container-_none_ .view-footer, #quicktabs-tabpage-home_news_hindi-0 .view-footer  {
+  bottom: 8px;
+  font-size: 110%;
+  position: absolute;
+  right: 31px;
+  border: 1px solid #5996d9;
+  padding: 3px;
+      z-index: 999999;
+}
+#quicktabs-container-_none_ .view-footer a{}
+
